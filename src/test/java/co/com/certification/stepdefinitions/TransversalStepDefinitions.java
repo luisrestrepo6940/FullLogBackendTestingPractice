@@ -43,7 +43,7 @@ public class TransversalStepDefinitions {
     public void theServiceReturnsTheRequiredStatusCode(DataTable dataTable) {
         List<Map<String, String>> mapList = dataTable.asMaps(String.class, String.class);
         theActorInTheSpotlight().should(seeThat(QuestionStatusCode.
-                checkStatusCodeResponse(Integer.parseInt(mapList.get(0).get(STATUS_CODE))), Matchers.is(true)));
+                checkStatusCodeResponse(Integer.parseInt(mapList.getFirst().get(STATUS_CODE))), Matchers.is(true)));
     }
 
     @Then("the user obtains the accumulated daily results on COVID returned by the consumed API")

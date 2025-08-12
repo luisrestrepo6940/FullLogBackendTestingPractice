@@ -14,7 +14,7 @@ public class ConsumeGetRequest implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Get.to(endOfTheEndpoint)
+        actor.attemptsTo(Get.consume(endOfTheEndpoint)
                 .with(requestSpecification -> requestSpecification
                         .relaxedHTTPSValidation()
                         .headers(new GetHeaders().getHeader())

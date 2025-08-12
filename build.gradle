@@ -21,10 +21,10 @@ repositories {
 ext {
     serenityVersion = '4.2.0'
     serenityCucumberVersion = '4.2.0'
-    lombokVersion = '1.18.34'
+    lombokVersion = '1.18.38'
     junit = '4.13.2'
     hamcrest = '1.3'
-    jakarta = '3.1.0'
+    jakarta = '3.1.1'
 }
 
 dependencies {
@@ -36,8 +36,6 @@ dependencies {
     implementation 'org.apache.logging.log4j:log4j-core:2.24.3'
     implementation "net.serenity-bdd:serenity-screenplay-rest:$rootProject.ext.serenityVersion"
     implementation "jakarta.validation:jakarta.validation-api:$rootProject.ext.jakarta"
-    implementation 'org.apache.poi:poi:5.4.1'
-    implementation 'org.apache.poi:poi-ooxml:5.4.1'
     implementation 'org.json:json:20240303'
 
     testImplementation "junit:junit:$rootProject.ext.junit"
