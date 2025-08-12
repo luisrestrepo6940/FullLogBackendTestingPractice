@@ -18,6 +18,7 @@
 ### INTRODUCTION
 
 Automated API testing project, printing consumption details to the log: Request method, Request URI, .Body, Response, and more.
+
 [![Go Back Badge](https://img.shields.io/badge/Back-gray?style=flat)](#content)
 
 #### The project directory structure
@@ -48,6 +49,8 @@ src
     + resources
         + features                  Feature files
 ```
+[![Go Back Badge](https://img.shields.io/badge/Back-gray?style=flat)](#content)
+
 ### REQUIREMENTS
 
 * Serenity-core: 4.2.0.
