@@ -74,7 +74,10 @@ Download or clone the repository and configure the settings and project structur
 
 ### RESPONSE LOG EXAMPLE
 
-Please write or contact the Teams user or email luis.f.restrepo@accenture.com
+<img width="656" height="437" alt="image" src="https://github.com/user-attachments/assets/20f4e08c-7ed4-41b0-8100-d680e66f97fd" />
+<img width="656" height="437" alt="image" src="https://github.com/user-attachments/assets/dd8e090e-da11-4480-8595-14189b5c863c" />
+<img width="656" height="437" alt="image" src="https://github.com/user-attachments/assets/03e48ebe-e749-4048-aff3-211589b9c5c0" />
+<img width="656" height="437" alt="image" src="https://github.com/user-attachments/assets/bc90bd49-5c09-47dd-af00-1f5a21d8cd4b" />
 
 [![Go Back Badge](https://img.shields.io/badge/Back-gray?style=flat)](#content)
 
