@@ -19,7 +19,10 @@
 
 Automated API testing project, printing consumption details to the log.
 
+<div align="justify">
 We'll make a couple of basic configurations at the log printing level. The first consists of omitting the option to print the log in monochrome (a single color) from the @CucumberOptions annotation in the test runner. This is because color output isn't problematic in our environment because we're not using a CI/CD pipeline or terminals that restrict ANSI escape codes for color. The second configuration is made at the inheritance level (extends) to indicate to the request type used that we're going to print all the logs from its execution, including headers, body, request, status, response, among others. All of this is done to have much more explicit and complete logs that, as such, allow us to quickly establish the cause of failures or perhaps obtain some required data from the executed tests.
+</div>
+<br />
 
 [![Go Back Badge](https://img.shields.io/badge/Back-gray?style=flat)](#content)
 
@@ -83,6 +86,7 @@ Download or clone the repository and configure the settings and project structur
 <img width="656" height="437" alt="image" src="https://github.com/user-attachments/assets/dd8e090e-da11-4480-8595-14189b5c863c" />
 <img width="656" height="437" alt="image" src="https://github.com/user-attachments/assets/03e48ebe-e749-4048-aff3-211589b9c5c0" />
 <img width="656" height="437" alt="image" src="https://github.com/user-attachments/assets/bc90bd49-5c09-47dd-af00-1f5a21d8cd4b" />
+<br />
 
 [![Go Back Badge](https://img.shields.io/badge/Back-gray?style=flat)](#content)
 
