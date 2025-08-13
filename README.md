@@ -17,7 +17,7 @@
 
 ### INTRODUCTION
 
-Automated API testing project, printing consumption details to the log: Request method, Request URI, .Body, Response, and more.
+Automated API testing project, printing consumption details to the log: Request method, Request URI, Body, Response, and more.
 
 [![Go Back Badge](https://img.shields.io/badge/Back-gray?style=flat)](#content)
 
