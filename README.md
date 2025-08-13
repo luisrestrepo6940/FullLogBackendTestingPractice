@@ -17,7 +17,9 @@
 
 ### INTRODUCTION
 
-Automated API testing project, printing consumption details to the log: Request method, Request URI, Body, Response, and more.
+Automated API testing project, printing consumption details to the log.
+
+We'll make a couple of basic configurations at the log printing level. The first consists of omitting the option to print the log in monochrome (a single color) from the @CucumberOptions annotation in the test runner. This is because color output isn't problematic in our environment because we're not using a CI/CD pipeline or terminals that restrict ANSI escape codes for color. The second configuration is made at the inheritance level (extends) to indicate to the request type used that we're going to print all the logs from its execution, including headers, body, request, status, response, among others. All of this is done to have much more explicit and complete logs that, as such, allow us to quickly establish the cause of failures or perhaps obtain some required data from the executed tests.
 
 [![Go Back Badge](https://img.shields.io/badge/Back-gray?style=flat)](#content)
 
